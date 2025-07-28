@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="db405fb4-d910-4f5e-a4e6-988e5370aa31" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Version 1/Block Diagram image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version 1/Block Diagram.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version 1/Data Sets Colected/Untitled spreadsheet - cleaned_data - cleaned_data(1)(1).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version 1/Data Sets Colected/Untitled spreadsheet - cleaned_data - cleaned_data(1).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version 1/Drawing1.eddx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version 1/NLp_PR_COMP.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version 1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version 1/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version 1/arabic_symptom_model.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version 1/cleaned_data - cleaned_data(1).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version 1/doctors_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version 1/nlp_pr_comp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version 1/recommend_doctors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version 1/static/css/doctors.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version 1/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version 1/static/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version 1/templates/doctors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version 1/templates/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "mohamedelawakey"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:mohamedelawakey/_Tamenni_.git",
+    "accountId": "6be313e1-3a3f-480c-951c-936e66d40272"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="30WIGagMqU3PLN2j6FsUVf53AI0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.app.executor": "Run",
+    "Python.nlp_pr_comp.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Versions",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alawakey\Desktop\Tamenni AI_\NoteBooks" />
+      <recent name="C:\Users\Alawakey\Desktop\Tamenni AI_\Data Sets" />
+      <recent name="C:\Users\Alawakey\Desktop\Tamenni AI_\Models" />
+      <recent name="C:\Users\Alawakey\Desktop\Tamenni AI_\Model Design" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db405fb4-d910-4f5e-a4e6-988e5370aa31" name="Changes" comment="" />
+      <created>1751972224138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751972224138</updated>
+    </task>
+    <servers />
+  </component>
+</project>
