@@ -4,6 +4,7 @@ body {
   padding: 40px;
   background: linear-gradient(to bottom, #a2c6f3, #0a2540);
   color: white;
+  height: 100vh;
 }
 
 h2 {
