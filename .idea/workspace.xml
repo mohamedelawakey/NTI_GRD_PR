@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+Versions
     <list default="true" id="db405fb4-d910-4f5e-a4e6-988e5370aa31" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/Version 1/Block Diagram image.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Version 1/Block Diagram.pdf" beforeDir="false" />
@@ -24,6 +25,9 @@
       <change beforePath="$PROJECT_DIR$/Version 1/templates/doctors.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Version 1/templates/index.html" beforeDir="false" />
     </list>
+
+    <list default="true" id="db405fb4-d910-4f5e-a4e6-988e5370aa31" name="Changes" comment="" />
+main
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +63,11 @@
     "Python.nlp_pr_comp.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+Versions
     "git-widget-placeholder": "Versions",
+
+    "git-widget-placeholder": "main",
+main
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
