@@ -2,21 +2,20 @@ from flask import Flask, request, jsonify, render_template
 import pickle, re, string
 import pandas as pd
 
-doctors_df = pd.read_csv("doctors_data.csv")
+doctors_df = pd.read_csv("Data Sets/doctors_data.csv")
 
-with open("arabic_symptom_model.pkl", "rb") as f:
+with open("Models/arabic_symptom_model.pkl", "rb") as f:
     model = pickle.load(f)
 
+with open("Models/vectorizer.pkl", "rb") as f:
+    vectorizer = pickle.load(f)
+
 AR_STOPWORDS = set([
-    'في', 'من', 'على', 'عن', 'إلى', 'أن', 'إن', 'كان', 'ما', 'لم', 'لن', 'قد', 'هذا', 'هذه', 'هناك',
-    'هو', 'هي', 'هم', 'نحن', 'كما', 'أو', 'ثم', 'لكن', 'بل', 'أيضاً', 'حتى', 'مع', 'كل', 'أكثر', 'أقل',
-    'لقد', 'ولا', 'له', 'منه', 'فيه', 'بين', 'بعد', 'عند', 'إلي', 'بدون', 'أحد', 'أي', 'شيء', 'لي',
-    'به', 'فهو', 'فهي', 'كانت', 'ليس', 'لان', 'إذا', 'مثل', 'ضمن', 'أصبح', 'ذلك', 'والتي', 'والذي',
-    'وهو', 'وهي', 'الذي', 'التي', 'الذين', 'اللذين', 'اللتي', 'بهذا', 'بها', 'بهم', 'بأن', 'فإن',
-    'كما', 'إذ', 'حيث', 'أين', 'منذ', 'إما', 'أثناء', 'بينما', 'لأن', 'كأن', 'إلا', 'قد', 'حتي',
-    'أو', 'و', 'ب', 'ل', 'ف', 'س', 'ك', 'ي', 'ت', 'ن', 'ا', 'إنه', 'أنها', 'وإن', 'أن', 'إن', 'مازال',
-    'مايزال', 'مافتئ', 'ماانفك', 'ما برح', 'لايزال', 'ليس', 'ما', 'لاتزال', 'لاتزال', 'لن', 'لم', 'لا'
+    'في', 'من', 'على', 'عن', 'إلى', 'كما', 'هذا', 'هذه', 'هناك',
+    'هو', 'هي', 'هم', 'نحن', 'أيضاً', 'حتى', 'مع', 'كل', 'أكثر', 'أقل',
+    'لقد', 'ولا', 'منه', 'فيه', 'بين', 'بعد', 'عند', 'بدون', 'أحد', 'أي'
 ])
+
 
 def clean_arabic_text(text):
     text = str(text).lower()
@@ -43,7 +42,10 @@ def predict():
         return jsonify({"error": "برجاء إدخال نص صالح"}), 400
 
     clean_text = clean_arabic_text(text)
-    prediction = model.predict([clean_text])[0]
+    print(">> Cleaned Text:", clean_text)
+
+    vectorized = vectorizer.transform([clean_text])
+    prediction = model.predict(vectorized)[0]
     return jsonify({"specialty": prediction})
 
 @app.route("/specialty/<specialty>")
