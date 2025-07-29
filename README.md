@@ -11,7 +11,7 @@ The goal is to help users (or digital systems) identify which medical department
 **Example Input:**
 > "بحس بتنميل في رجلي ومش قادر أمشي كويس"  
 **Output:**
-> **Neurology**
+> **المخ والاعصاب**
 
 ---
 
